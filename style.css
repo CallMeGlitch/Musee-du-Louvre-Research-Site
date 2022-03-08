@@ -1,24 +1,26 @@
-
-
 .navbar-logo {
     height: 100px;
 }
 
 body {
-    background-color: #000;
+    background-color: #FFF;
+    font-family: Georgia;
+}
+.body-history {
+    background-color: #808080;
     font-family: Georgia;
 }
 
-. francais-bleu {
-Background-color: #002395;
+.francais-bleu {
+    Background-color: #002654;
 }
 
-. francais-blanc {
-Background-color:#FFFFFF;
+.francais-blanc {
+    Background-color: #FFFFFF;
 }
 
-.francais-rouge{
-Background-color: #ED2939;
+.francais-rouge {
+    Background-color: #ce1126;
 }
 
 .boxes {
@@ -34,80 +36,49 @@ Background-color: #ED2939;
     color: #cccccc;
 }
 
+
+
 .navbar-active {
     color: #FFF;
-    text-shadow: 3px 3px 0.125rem #5e0819;
+    text-shadow: 3px 3px 0.125rem #000;
+    font-size: 18px;
+}
+
+
+.navbar-nav-text-black{
+    color: #000;
+}
+
+.navbar-nav-text-black-active{
+    color: #000;
+    text-shadow: 3px 3px 0.125rem #808080;
     font-size: 18px;
 }
 
 .card {
-    background-color: #88001b;
     color: #FFF;
+    border-radius: 20px;
 }
 
-
-
-footer {
-    background-color: #88001b;
-    color: #FFF;
+.card-home{
+    background-color: #002654;
 }
-
 
 .btn-outline-light {
-    box-shadow: 4px 4px 0.125rem #5e0819;
+    box-shadow: 4px 4px 0.125rem #000;
 }
-
+.footer-section{
+    color: #FFF;
+}
 .footer-head {
     text-shadow: 2px 2px 0.125rem #979595;
 }
 
 .card-title {
-    text-shadow: 3px 3px 0.125rem #38040f;
+    text-shadow: 3px 3px 0.125rem #000;
     font-size: 35px;
 }
 
-.accordion-item {
-    box-shadow: 4px 4px 0.125rem #5e0819;
-    color: #FFF;
-    background-color: transparent;
-}
-
-.accordion-button {
-    background-color: transparent;
-    color: #FFF;
-}
-
-.about-things {
-    background-color: #FFF;
-    color: #000;
-}
-
-.about-img {
-    width: 300px;
-    height: 300px;
-}
-
-.accordion-button:not(.collapsed) {
-    color: #000;
-    background-color: #FFF;
-}
-
-.accordion-button:focus {
-    z-index: 3;
-    border-color: #000;
-    outline: 0;
-    box-shadow: 0 0 0 0.25rem rgb(0 0 0/ 25%);
-}
-
-
-
-.accordion-button:not(.collapsed)::after {
-    background-image: url(./img/arrow2.png);
-}
-
-.accordion-button::after {
-    background-image: url(./img/arrow1.png);
-}
 
 .homecards {
     display: flex;
@@ -116,25 +87,8 @@ footer {
     flex-wrap: wrap;
 }
 
-.card-about-img {
-    width: fit-content;
 
-}
-
-
-
-
-
-
-
-
-
-.card {
-    border-radius: 20px;
-}
-
-
-.btn-primary{
+.btn-primary {
     position: fixed;
     bottom: 50%;
     right: 10px;
@@ -153,8 +107,8 @@ footer {
 }
 
 
-  
-    
+
+
 #container {
     margin: 50px;
 }
