@@ -1,1 +1,148 @@
 
+
+.navbar-logo {
+    height: 100px;
+}
+
+body {
+    background-color: #000;
+    font-family: Georgia;
+}
+
+.boxes {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav-text {
+    color: #cccccc;
+}
+
+.navbar-active {
+    color: #FFF;
+    text-shadow: 3px 3px 0.125rem #5e0819;
+    font-size: 18px;
+}
+
+.card {
+    background-color: #88001b;
+    color: #FFF;
+}
+
+
+
+footer {
+    background-color: #88001b;
+    color: #FFF;
+}
+
+
+.btn-outline-light {
+    box-shadow: 4px 4px 0.125rem #5e0819;
+}
+
+.footer-head {
+    text-shadow: 2px 2px 0.125rem #979595;
+}
+
+.card-title {
+    text-shadow: 3px 3px 0.125rem #38040f;
+    font-size: 35px;
+}
+
+.accordion-item {
+    box-shadow: 4px 4px 0.125rem #5e0819;
+    color: #FFF;
+    background-color: transparent;
+}
+
+.accordion-button {
+    background-color: transparent;
+    color: #FFF;
+}
+
+.about-things {
+    background-color: #FFF;
+    color: #000;
+}
+
+.about-img {
+    width: 300px;
+    height: 300px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #FFF;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #000;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0/ 25%);
+}
+
+
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(./img/arrow2.png);
+}
+
+.accordion-button::after {
+    background-image: url(./img/arrow1.png);
+}
+
+.homecards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-about-img {
+    width: fit-content;
+
+}
+
+
+
+
+
+
+
+
+
+.card {
+    border-radius: 20px;
+}
+
+
+.btn-primary{
+    position: fixed;
+    bottom: 50%;
+    right: 10px;
+    border-radius: 12px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    color: #88001b;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+  
+    
+#container {
+    margin: 50px;
+}
