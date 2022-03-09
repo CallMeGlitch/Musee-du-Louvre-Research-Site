@@ -63,6 +63,9 @@ body {
 .card-home{
     background-color: #002654;
 }
+.card-paintings{
+    background-color: #ce1126;
+}
 
 .btn-outline-light {
     box-shadow: 4px 4px 0.125rem #000;
@@ -88,6 +91,11 @@ body {
     font-size: 35px;
 }
 
+.history-title{
+    color: #000;
+    text-shadow: 3px 3px 0.125rem #808080;
+    font-size: 35px;
+}
 
 .homecards {
     display: flex;
