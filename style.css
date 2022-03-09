@@ -71,7 +71,16 @@ body {
     color: #FFF;
 }
 .footer-head {
-    text-shadow: 2px 2px 0.125rem #979595;
+    text-shadow: 2px 2px 0.125rem #000;
+}
+
+.footer-head-history {
+    text-shadow: 2px 2px 0.125rem #808080;
+    color:#000;
+}
+
+.footer-text-black{
+    color:#000;
 }
 
 .card-title {
